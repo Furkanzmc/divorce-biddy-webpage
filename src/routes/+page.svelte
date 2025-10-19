@@ -5,13 +5,14 @@
 <main>
   <section class="hero">
     <div class="container">
-      <div class="hero-header">
-        <!-- Optional small logo/icon placeholder here -->
+      <div class="hero-content">
+        <h1>Stop wasting time on unqualified consultations.</h1>
+        <p class="tagline">Divorce Buddy helps you identify serious clients before you invest time in free consultations, so you can focus on cases that matter.</p>
+        <button class="primary-button">Join Early Access</button>
       </div>
-      <h1>Stop wasting time on unqualified consultations.</h1>
-      <p class="tagline">Divorce Buddy helps you identify serious clients before you invest time in free consultations, so you can focus on cases that matter.</p>
-      <button class="primary-button">Join Early Access</button>
-      <div class="hero-bg-visual"></div>
+      <div class="hero-image-section">
+        <div class="hero-bg-visual"></div>
+      </div>
     </div>
   </section>
 
@@ -120,7 +121,7 @@
   }
 
   .container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 24px;
   }
@@ -131,7 +132,7 @@
   } */
 
   main {
-    padding-top: 0;
+    padding: 40px 0;
   }
 
   h1, h2, h3 {
@@ -162,14 +163,12 @@
 
   /* Hero Section */
   .hero {
-    text-align: center;
-    padding: 100px 0 60px 0;
-    position: relative;
-    overflow: hidden;
+    padding: 60px 0 40px 0;
+    margin-bottom: 40px;
   }
 
-  .hero-header {
-    height: 40px; /* Space for a small logo/icon if desired */
+  .hero-content {
+    text-align: center;
     margin-bottom: 40px;
   }
 
@@ -178,6 +177,7 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0.5em;
   }
 
   .hero .tagline {
@@ -187,6 +187,39 @@
     margin-right: auto;
     margin-bottom: 2.5em;
     color: var(--text-secondary);
+  }
+
+  .hero-image-section {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    border-radius: 60px;
+    overflow: hidden;
+  }
+
+  .hero-bg-visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/hero-background.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+  }
+
+  .hero-bg-visual::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.6) 70%, rgba(255, 255, 255, 0.9) 100%);
+    border-radius: 60px;
   }
 
   .primary-button {
@@ -201,6 +234,8 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     box-shadow: 0 4px 15px var(--shadow-medium);
+    position: relative;
+    z-index: 1;
   }
 
   .primary-button:hover {
@@ -209,25 +244,15 @@
     box-shadow: 0 6px 20px var(--shadow-medium);
   }
 
-  .hero-bg-visual {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(to top, rgba(224, 240, 255, 0.8), rgba(224, 240, 255, 0));
-    border-radius: 12px;
-    z-index: -1;
-    opacity: 0.6; /* Subtle effect */
-  }
 
   /* Statement Section */
   .statement {
     padding: 80px 0;
     background-color: var(--white-color);
     text-align: center;
-    border-top: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
+    border-radius: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px var(--shadow-light);
   }
 
   .statement p {
@@ -239,6 +264,10 @@
   /* Features Section */
   .features {
     padding: 100px 0;
+    background-color: var(--white-color);
+    border-radius: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px var(--shadow-light);
   }
 
   .feature-item {
@@ -290,8 +319,9 @@
   .privacy {
     background-color: var(--white-color);
     padding: 100px 0;
-    border-top: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
+    border-radius: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px var(--shadow-light);
   }
 
   .privacy h2 {
@@ -344,8 +374,8 @@
     padding: 100px 0;
     text-align: center;
     color: var(--footer-text);
-    border-radius: 12px; 
-    margin: 60px 24px;
+    border-radius: 60px; 
+    margin-bottom: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   }
 
@@ -454,12 +484,14 @@
     }
 
     .hero {
-      padding: 80px 0 40px 0;
+      padding: 40px 0 30px 0;
     }
 
-    .hero-bg-visual {
-      height: 200px;
+    .hero-image-section {
+      width: 100%;
+      aspect-ratio: 16/9;
     }
+
 
     .statement,
     .features,
@@ -479,7 +511,7 @@
 
     .call-to-action-section {
       padding: 80px 20px;
-      margin: 40px 15px;
+      margin: 0 15px 40px 15px;
     }
 
     .footer-content {
@@ -507,7 +539,12 @@
     }
 
     .hero {
-      padding: 60px 0 30px 0;
+      padding: 30px 0 20px 0;
+    }
+
+    .hero-image-section {
+      width: 100%;
+      aspect-ratio: 16/9;
     }
 
     .hero .tagline {
@@ -519,9 +556,6 @@
       font-size: 1rem;
     }
 
-    .hero-bg-visual {
-      height: 150px;
-    }
 
     .statement,
     .features,
@@ -535,7 +569,7 @@
 
     .call-to-action-section {
       padding: 60px 15px;
-      margin: 30px 10px;
+      margin: 0 10px 30px 10px;
     }
 
     .secondary-button {
