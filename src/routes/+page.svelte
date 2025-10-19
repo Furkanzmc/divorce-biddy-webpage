@@ -8,8 +8,8 @@
       <div class="hero-header">
         <!-- Optional small logo/icon placeholder here -->
       </div>
-      <h1>Reduce consultation time by 80%.</h1>
-      <p class="tagline">Divorce Buddy pre-qualifies clients and structures their information, so you can focus on what matters most—providing expert legal counsel.</p>
+      <h1>Stop wasting time on unqualified consultations.</h1>
+      <p class="tagline">Divorce Buddy helps you identify serious clients before you invest time in free consultations, so you can focus on cases that matter.</p>
       <button class="primary-button">Join Early Access</button>
       <div class="hero-bg-visual"></div>
     </div>
@@ -17,8 +17,8 @@
 
   <section class="statement section-padding">
     <div class="container">
-      <h2>Stop wasting time on unqualified consultations.</h2>
-      <p>Traditional 30-minute free consultations are expensive and inefficient. Divorce Buddy eliminates this burden by pre-screening clients and providing you with structured, lawyer-ready case summaries before you even meet.</p>
+      <h2>No bullshit. Just better client qualification.</h2>
+      <p>Traditional free consultations waste your time and money. Divorce Buddy helps you identify which clients are worth your time before you invest in a consultation. No hidden fees, no unnecessary features—just what you need to qualify customers.</p>
     </div>
   </section>
 
@@ -29,8 +29,8 @@
           <img src="https://www.svgrepo.com/show/472877/documents-folder.svg" alt="Documents icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Pre-structured case files.</h2>
-          <p>Every client comes to you with a comprehensive, AI-generated case summary that includes all relevant details, legal considerations, and potential issues. No more spending 20 minutes gathering basic information—jump straight into strategic legal advice.</p>
+          <h2>Clean PDF summaries.</h2>
+          <p>Get a comprehensive summary of the client's situation, concerns, and timeline in a clean PDF format. Everything you need to decide if they're worth your time, without any data storage concerns.</p>
         </div>
       </div>
 
@@ -39,8 +39,29 @@
           <img src="https://www.svgrepo.com/show/472879/lawyer.svg" alt="Lawyer icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Higher quality clients.</h2>
-          <p>Our AI pre-screens clients based on case complexity, urgency, and budget. You only meet with clients who are serious about proceeding and have cases worth your time. No more tire-kickers or unrealistic expectations.</p>
+          <h2>Smart client screening.</h2>
+          <p>Our AI asks the right questions to identify serious clients. Budget realistic? Timeline reasonable? Ready to move forward? We'll tell you straight up, so you can focus on clients who actually convert.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy section-padding">
+    <div class="container">
+      <h2>Privacy first. Always.</h2>
+      <p>We don't store conversations. Period. At the end of each chat session, we generate a PDF summary and delete everything. Your clients' privacy is as important to us as it is to you.</p>
+      <div class="privacy-points">
+        <div class="privacy-point">
+          <h3>No conversation storage</h3>
+          <p>We don't store chat data. Everything is deleted after PDF generation.</p>
+        </div>
+        <div class="privacy-point">
+          <h3>Ontario Family Law trained</h3>
+          <p>Our AI is specifically trained on Ontario Family Law, not user conversations.</p>
+        </div>
+        <div class="privacy-point">
+          <h3>No legal advice</h3>
+          <p>AI provides context and asks questions only. No legal advice given.</p>
         </div>
       </div>
     </div>
@@ -49,9 +70,9 @@
   <section class="call-to-action-section">
     <div class="container">
       <div class="cta-content">
-        <h2>Ready to transform your practice?</h2>
-        <button class="secondary-button">Get Early Access</button>
-        <p class="cta-subtext">Join the waitlist for early access and help shape the future of legal client intake.</p>
+        <h2>Simple pricing. No surprises.</h2>
+        <button class="secondary-button">Join the Waitlist</button>
+        <p class="cta-subtext">One price. No hidden fees. No feature bloat. Just the tools you need to qualify clients better. We're building this for lawyers, by lawyers.</p>
       </div>
     </div>
   </section>
@@ -265,6 +286,58 @@
     margin-bottom: 0.8em;
   }
 
+  /* Privacy Section */
+  .privacy {
+    background-color: var(--white-color);
+    padding: 100px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .privacy h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .privacy > .container > p {
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+  }
+
+  .privacy-points {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .privacy-point {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--shadow-light);
+  }
+
+  .privacy-point h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5em;
+    color: var(--text-primary);
+  }
+
+  .privacy-point p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    color: var(--text-secondary);
+  }
+
   /* Call to Action Section */
   .call-to-action-section {
     background-color: var(--footer-bg);
@@ -389,8 +462,19 @@
     }
 
     .statement,
-    .features {
+    .features,
+    .privacy {
       padding: 60px 0;
+    }
+
+    .privacy-points {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .privacy-point {
+      max-width: 90%;
     }
 
     .call-to-action-section {
@@ -440,7 +524,8 @@
     }
 
     .statement,
-    .features {
+    .features,
+    .privacy {
       padding: 40px 0;
     }
 
