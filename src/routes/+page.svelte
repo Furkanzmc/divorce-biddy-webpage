@@ -10,15 +10,15 @@
         <p class="tagline">Divorce Buddy helps you identify serious clients before you invest time in free consultations, so you can focus on cases that matter.</p>
         <button class="primary-button">Join Early Access</button>
       </div>
-      <div class="hero-image-section">
-        <div class="hero-bg-visual"></div>
-      </div>
+    </div>
+    <div class="hero-image-section">
+      <div class="hero-bg-visual"></div>
     </div>
   </section>
 
   <section class="statement section-padding">
     <div class="container">
-      <h2>No bullshit. Just better client qualification.</h2>
+          <h2>Straightforward. Just better client qualification.</h2>
       <p>Traditional free consultations waste your time and money. Divorce Buddy helps you identify which clients are worth your time before you invest in a consultation. No hidden fees, no unnecessary features—just what you need to qualify customers.</p>
     </div>
   </section>
@@ -191,9 +191,9 @@
 
   .hero-image-section {
     position: relative;
-    width: 100%;
-    aspect-ratio: 16/9;
+    width: 90%;
     margin: 0 auto;
+    aspect-ratio: 16/9;
     border-radius: 60px;
     overflow: hidden;
   }
@@ -248,7 +248,7 @@
   /* Statement Section */
   .statement {
     padding: 80px 0;
-    background-color: var(--white-color);
+    background-color: #FEFEFE;
     text-align: center;
     border-radius: 60px;
     margin-bottom: 40px;
@@ -264,7 +264,7 @@
   /* Features Section */
   .features {
     padding: 100px 0;
-    background-color: var(--white-color);
+    background-color: #FCFCFC;
     border-radius: 60px;
     margin-bottom: 40px;
     box-shadow: 0 4px 20px var(--shadow-light);
@@ -317,7 +317,7 @@
 
   /* Privacy Section */
   .privacy {
-    background-color: var(--white-color);
+    background-color: #FAFAFA;
     padding: 100px 0;
     border-radius: 60px;
     margin-bottom: 40px;
@@ -529,7 +529,7 @@
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 900px) {
     h1 {
       font-size: 2.2rem;
     }
@@ -543,7 +543,7 @@
     }
 
     .hero-image-section {
-      width: 100%;
+      /* width: 100%; */
       aspect-ratio: 16/9;
     }
 
