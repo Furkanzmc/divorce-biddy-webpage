@@ -6,9 +6,14 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <h1>Stop wasting time on unqualified consultations.</h1>
-        <p class="tagline">Divorce Buddy helps you identify serious clients before you invest time in free consultations, so you can focus on cases that matter.</p>
-        <button class="primary-button">Join Early Access</button>
+        <h1>Streamline Divorce Client Intake—Save Time, Qualify Faster</h1>
+        <p class="tagline">Answer a few quick questions and help us build an intake platform that works for you.</p>
+        <button class="primary-button">Take the 2-Minute Survey</button>
+        <p class="cta-subtext">Help shape a platform designed to reduce repetitive free consultations and deliver better-qualified divorce clients.</p>
+        <div class="testimonial">
+          <p class="testimonial-quote">"Built by lawyers, for lawyers. We understand your daily challenges."</p>
+          <p class="testimonial-author">— Family Law Practice Team</p>
+        </div>
       </div>
     </div>
     <div class="hero-image-section">
@@ -18,8 +23,12 @@
 
   <section class="statement section-padding">
     <div class="container">
-          <h2>Straightforward. Just better client qualification.</h2>
-      <p>Traditional free consultations waste your time and money. Divorce Buddy helps you identify which clients are worth your time before you invest in a consultation. No hidden fees, no unnecessary features—just what you need to qualify customers.</p>
+      <h2>What's in it for You?</h2>
+      <p>Your feedback ensures our solution is effective, affordable, and lawyer-friendly. We're building this platform specifically to address the pain points you face daily in client intake.</p>
+      <div class="survey-details">
+        <p><strong>Quick 2-minute survey:</strong> 5 simple questions about your current intake process</p>
+        <p><strong>Early access:</strong> First 25 respondents get beta invites</p>
+      </div>
     </div>
   </section>
 
@@ -30,18 +39,28 @@
           <img src="https://www.svgrepo.com/show/472877/documents-folder.svg" alt="Documents icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Clean PDF summaries.</h2>
-          <p>Get a comprehensive summary of the client's situation, concerns, and timeline in a clean PDF format. Everything you need to decide if they're worth your time, without any data storage concerns.</p>
+          <h2>Easy Case Summaries</h2>
+          <p>Get comprehensive client summaries in clean PDF format. All the key details you need to assess a case before investing time in consultations.</p>
         </div>
       </div>
 
       <div class="feature-item reverse">
         <div class="feature-visual">
-          <img src="https://www.svgrepo.com/show/472879/lawyer.svg" alt="Lawyer icon" class="feature-icon"/>
+          <img src="https://www.svgrepo.com/show/472879/lawyer.svg" alt="Checklist icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Smart client screening.</h2>
-          <p>Our AI asks the right questions to identify serious clients. Budget realistic? Timeline reasonable? Ready to move forward? We'll tell you straight up, so you can focus on clients who actually convert.</p>
+          <h2>Client Info Up Front</h2>
+          <p>Know budget, timeline, and case complexity before the first call. Focus your time on clients who are serious and ready to move forward.</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-visual">
+          <img src="https://www.svgrepo.com/show/472880/shield.svg" alt="Shield icon" class="feature-icon"/>
+        </div>
+        <div class="feature-content">
+          <h2>Referral, Not Spam</h2>
+          <p>We connect qualified clients with the right lawyers. No cold outreach, no spam—just quality referrals that convert to paying clients.</p>
         </div>
       </div>
     </div>
@@ -49,20 +68,20 @@
 
   <section class="privacy section-padding">
     <div class="container">
-      <h2>Privacy first. Always.</h2>
-      <p>We don't store conversations. Period. At the end of each chat session, we generate a PDF summary and delete everything. Your clients' privacy is as important to us as it is to you.</p>
+      <h2>We Want to Hear from Legal Professionals!</h2>
+      <p>What do you need most in a client intake tool?</p>
       <div class="privacy-points">
         <div class="privacy-point">
-          <h3>No conversation storage</h3>
-          <p>We don't store chat data. Everything is deleted after PDF generation.</p>
+          <h3>Confidential & Secure</h3>
+          <p>Your responses are private. We never share your information with third parties.</p>
         </div>
         <div class="privacy-point">
-          <h3>Ontario Family Law trained</h3>
-          <p>Our AI is specifically trained on Ontario Family Law, not user conversations.</p>
+          <h3>Shape the Solution</h3>
+          <p>Help us build features that actually solve your daily challenges in client intake.</p>
         </div>
         <div class="privacy-point">
-          <h3>No legal advice</h3>
-          <p>AI provides context and asks questions only. No legal advice given.</p>
+          <h3>Early Access</h3>
+          <p>First 25 respondents get early beta invites when we launch the platform.</p>
         </div>
       </div>
     </div>
@@ -71,9 +90,9 @@
   <section class="call-to-action-section">
     <div class="container">
       <div class="cta-content">
-        <h2>Simple pricing. No surprises.</h2>
-        <button class="secondary-button">Join the Waitlist</button>
-        <p class="cta-subtext">One price. No hidden fees. No feature bloat. Just the tools you need to qualify clients better. We're building this for lawyers, by lawyers.</p>
+        <h2>Ready to Share Your Feedback?</h2>
+        <button class="secondary-button">Take the 2-Minute Survey</button>
+        <p class="cta-subtext">You'll be redirected to our short form (5 questions, 2 minutes). After submission, you may be invited to early access or notified when we launch.</p>
       </div>
     </div>
   </section>
@@ -84,10 +103,13 @@
     <div class="footer-content">
       <span class="footer-logo">Divorce Buddy</span>
       <div class="footer-links">
+        <a href="mailto:feedback@divorcebuddy.com">Contact Us</a>
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
-        <a href="#">Contact</a>
       </div>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2024 Divorce Buddy. Building better client intake for family lawyers.</p>
     </div>
   </div>
 </footer>
@@ -185,8 +207,58 @@
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
     color: var(--text-secondary);
+  }
+
+  .hero .cta-subtext {
+    font-size: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .testimonial {
+    margin-top: 2em;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color);
+  }
+
+  .testimonial-quote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--text-primary);
+    margin-bottom: 0.5em;
+    font-weight: 500;
+  }
+
+  .testimonial-author {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+    text-align: right;
+  }
+
+  .survey-details {
+    margin-top: 2em;
+    padding: 20px;
+    background-color: rgba(74, 144, 226, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+  }
+
+  .survey-details p {
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+  }
+
+  .survey-details p:last-child {
+    margin-bottom: 0;
   }
 
   .hero-image-section {
@@ -226,16 +298,17 @@
     background-color: var(--button-primary-bg);
     color: var(--button-primary-text);
     border: none;
-    padding: 16px 32px;
-    font-size: 1.1rem;
+    padding: 18px 36px;
+    font-size: 1.2rem;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.02em;
-    box-shadow: 0 4px 15px var(--shadow-medium);
+    box-shadow: 0 6px 20px var(--shadow-medium);
     position: relative;
     z-index: 1;
+    margin: 1em 0;
   }
 
   .primary-button:hover {
@@ -392,13 +465,14 @@
     background-color: var(--button-secondary-bg);
     color: var(--button-secondary-text);
     border: none;
-    padding: 14px 28px;
-    font-size: 1rem;
+    padding: 16px 32px;
+    font-size: 1.1rem;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 20px;
+    box-shadow: 0 4px 15px var(--shadow-medium);
   }
 
   .secondary-button:hover {
@@ -425,6 +499,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .footer-copyright p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
   }
 
   .footer-logo {
@@ -549,6 +636,20 @@
 
     .hero .tagline {
       font-size: 1.2rem;
+    }
+
+    .testimonial {
+      margin-top: 1.5em;
+      padding: 15px;
+    }
+
+    .testimonial-quote {
+      font-size: 1rem;
+    }
+
+    .survey-details {
+      margin-top: 1.5em;
+      padding: 15px;
     }
 
     .primary-button {
