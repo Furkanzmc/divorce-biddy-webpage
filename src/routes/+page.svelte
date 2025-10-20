@@ -6,10 +6,11 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <h1>Streamline Divorce Client Intake—Save Time, Qualify Faster</h1>
-        <p class="tagline">Answer a few quick questions and help us build an intake platform that works for you.</p>
+        <h1>One-pass divorce intake. Clients answer. You get a clean PDF. That's it.</h1>
+        <p class="tagline">Built exclusively for family law. We collect facts, structure them into a PDF, and stop.</p>
         <button class="primary-button">Take the 2-Minute Survey</button>
-        <p class="cta-subtext">Help shape a platform designed to reduce repetitive free consultations and deliver better-qualified divorce clients.</p>
+        <p class="cta-subtext">5 questions. First 25 get early access.</p>
+        <p class="ai-disclaimer">AI produces a client-ready summary with citations to existing cases/statutes—no advice, no analysis.</p>
       </div>
     </div>
     <div class="hero-image-section">
@@ -19,24 +20,34 @@
 
   <section class="statement section-padding">
     <div class="container">
-      <h2>What's in it for You?</h2>
-      <p>Your feedback ensures our solution is effective, affordable, and lawyer-friendly. We're building this platform specifically to address the pain points you face daily in client intake.</p>
-      <div class="survey-details">
-        <p><strong>Quick 2-minute survey:</strong> 5 simple questions about your current intake process</p>
-        <p><strong>Early access:</strong> First 25 respondents get beta invites</p>
+      <h2>How it works</h2>
+      <div class="workflow-steps">
+        <div class="workflow-step">
+          <h3>Client Q&A</h3>
+          <p>The client answers guided questions once.</p>
+        </div>
+        <div class="workflow-step">
+          <h3>Instant PDF</h3>
+          <p>A clean, structured summary with statute/case references.</p>
+        </div>
+        <div class="workflow-step">
+          <h3>You review</h3>
+          <p>You receive the PDF; our part ends here.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="features section-padding">
     <div class="container">
+      <h2>Why it helps</h2>
       <div class="feature-item">
         <div class="feature-visual">
           <img src="https://www.svgrepo.com/show/472877/documents-folder.svg" alt="Documents icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Easy Case Summaries</h2>
-          <p>Clean, structured client summaries in PDF—no extra admin.</p>
+          <h3>Cut 30-minute free consults to 5</h3>
+          <p>Pre-qualified, structured, and ready.</p>
         </div>
       </div>
 
@@ -45,8 +56,8 @@
           <img src="https://www.svgrepo.com/show/472879/lawyer.svg" alt="Checklist icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Client Info Up Front</h2>
-          <p>Receive all key details before the first call.</p>
+          <h3>Real, consult-ready clients</h3>
+          <p>No marketing blasts—just serious prospects.</p>
         </div>
       </div>
 
@@ -55,8 +66,8 @@
           <img src="https://www.svgrepo.com/show/472880/shield.svg" alt="Shield icon" class="feature-icon"/>
         </div>
         <div class="feature-content">
-          <h2>Referral, Not Spam</h2>
-          <p>No spam—just real referrals that convert.</p>
+          <h3>Family-law intake in one step</h3>
+          <p>No portals, no follow-ups.</p>
         </div>
       </div>
     </div>
@@ -64,12 +75,19 @@
 
   <section class="privacy section-padding">
     <div class="container">
-      <h2>We Want to Hear from Legal Professionals!</h2>
-      <p>What do you need most in a client intake tool? Your 5-question survey responses are confidential and secure.</p>
+      <h2>Trust & Compliance</h2>
       <div class="privacy-points">
         <div class="privacy-point">
-          <h3>Shape the Solution</h3>
-          <p>Help us build features that actually solve your daily challenges in client intake.</p>
+          <h3>No Legal Advice</h3>
+          <p>We do not provide legal advice. We reference public family-law sources and existing cases to organize facts.</p>
+        </div>
+        <div class="privacy-point">
+          <h3>Currently Ontario-focused</h3>
+          <p>Built with input from practicing family lawyers in Ontario.</p>
+        </div>
+        <div class="privacy-point">
+          <h3>Confidential & Secure</h3>
+          <p>Survey responses are confidential and secure. No client-identifying data is collected.</p>
         </div>
       </div>
     </div>
@@ -78,9 +96,9 @@
   <section class="call-to-action-section">
     <div class="container">
       <div class="cta-content">
-        <h2>Ready to Share Your Feedback?</h2>
+        <h2>Help us build the right solution</h2>
         <button class="secondary-button">Take the 2-Minute Survey</button>
-        <p class="cta-subtext">You'll be redirected to our 5-question form (2 minutes). After submission, you'll be notified when we launch.</p>
+        <p class="cta-subtext">5 questions. First 25 get early access. Survey responses are confidential and secure.</p>
       </div>
     </div>
   </section>
@@ -92,8 +110,8 @@
       <span class="footer-logo">Divorce Buddy</span>
       <div class="footer-links">
         <a href="mailto:feedback@divorcebuddy.com">Contact Us</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
       </div>
     </div>
     <div class="footer-copyright">
@@ -219,22 +237,45 @@
     font-style: italic;
   }
 
+  .ai-disclaimer {
+    font-size: 0.95rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    color: var(--text-secondary);
+    font-style: italic;
+    opacity: 0.8;
+  }
 
-  .survey-details {
-    margin-top: 2em;
+
+  .workflow-steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .workflow-step {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
     padding: 20px;
-    background-color: rgba(74, 144, 226, 0.1);
-    border-radius: 8px;
-    border: 1px solid rgba(74, 144, 226, 0.2);
   }
 
-  .survey-details p {
+  .workflow-step h3 {
+    font-size: 1.3rem;
     margin-bottom: 0.5em;
-    font-size: 1rem;
+    color: var(--text-primary);
+    font-weight: 600;
   }
 
-  .survey-details p:last-child {
+  .workflow-step p {
+    font-size: 1rem;
     margin-bottom: 0;
+    color: var(--text-secondary);
   }
 
   .hero-image-section {
@@ -370,11 +411,11 @@
     text-align: left;
   }
 
-  .feature-content h2 {
+  .feature-content h3 {
     text-align: left;
     margin-top: 0;
     margin-bottom: 0.8em;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: var(--text-primary);
   }
@@ -551,9 +592,9 @@
       text-align: center;
     }
 
-    .feature-content h2 {
-      text-align: center;
-    }
+        .feature-content h3 {
+          text-align: center;
+        }
   }
 
   @media (max-width: 768px) {
@@ -638,9 +679,13 @@
     }
 
 
-    .survey-details {
-      margin-top: 1.5em;
-      padding: 15px;
+    .workflow-steps {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .workflow-step {
+      max-width: 100%;
     }
 
     .primary-button {
