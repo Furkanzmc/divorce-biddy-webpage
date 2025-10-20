@@ -10,10 +10,6 @@
         <p class="tagline">Answer a few quick questions and help us build an intake platform that works for you.</p>
         <button class="primary-button">Take the 2-Minute Survey</button>
         <p class="cta-subtext">Help shape a platform designed to reduce repetitive free consultations and deliver better-qualified divorce clients.</p>
-        <div class="testimonial">
-          <p class="testimonial-quote">"Built by lawyers, for lawyers. We understand your daily challenges."</p>
-          <p class="testimonial-author">— Family Law Practice Team</p>
-        </div>
       </div>
     </div>
     <div class="hero-image-section">
@@ -40,7 +36,7 @@
         </div>
         <div class="feature-content">
           <h2>Easy Case Summaries</h2>
-          <p>Get comprehensive client summaries in clean PDF format. All the key details you need to assess a case before investing time in consultations.</p>
+          <p>Clean, structured client summaries in PDF—no extra admin.</p>
         </div>
       </div>
 
@@ -50,7 +46,7 @@
         </div>
         <div class="feature-content">
           <h2>Client Info Up Front</h2>
-          <p>Know budget, timeline, and case complexity before the first call. Focus your time on clients who are serious and ready to move forward.</p>
+          <p>Receive all key details before the first call.</p>
         </div>
       </div>
 
@@ -60,7 +56,7 @@
         </div>
         <div class="feature-content">
           <h2>Referral, Not Spam</h2>
-          <p>We connect qualified clients with the right lawyers. No cold outreach, no spam—just quality referrals that convert to paying clients.</p>
+          <p>No spam—just real referrals that convert.</p>
         </div>
       </div>
     </div>
@@ -69,19 +65,11 @@
   <section class="privacy section-padding">
     <div class="container">
       <h2>We Want to Hear from Legal Professionals!</h2>
-      <p>What do you need most in a client intake tool?</p>
+      <p>What do you need most in a client intake tool? Your 5-question survey responses are confidential and secure.</p>
       <div class="privacy-points">
-        <div class="privacy-point">
-          <h3>Confidential & Secure</h3>
-          <p>Your responses are private. We never share your information with third parties.</p>
-        </div>
         <div class="privacy-point">
           <h3>Shape the Solution</h3>
           <p>Help us build features that actually solve your daily challenges in client intake.</p>
-        </div>
-        <div class="privacy-point">
-          <h3>Early Access</h3>
-          <p>First 25 respondents get early beta invites when we launch the platform.</p>
         </div>
       </div>
     </div>
@@ -92,7 +80,7 @@
       <div class="cta-content">
         <h2>Ready to Share Your Feedback?</h2>
         <button class="secondary-button">Take the 2-Minute Survey</button>
-        <p class="cta-subtext">You'll be redirected to our short form (5 questions, 2 minutes). After submission, you may be invited to early access or notified when we launch.</p>
+        <p class="cta-subtext">You'll be redirected to our 5-question form (2 minutes). After submission, you'll be notified when we launch.</p>
       </div>
     </div>
   </section>
@@ -109,7 +97,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <p>&copy; 2024 Divorce Buddy. Building better client intake for family lawyers.</p>
+      <p>&copy; 2024 Divorce Buddy. A platform designed exclusively for family lawyers.</p>
     </div>
   </div>
 </footer>
@@ -164,16 +152,22 @@
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
     color: var(--text-primary);
+    line-height: 1.1;
   }
 
   h2 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
+    margin-top: 0.5em;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.2;
   }
 
   p {
@@ -185,30 +179,34 @@
 
   /* Hero Section */
   .hero {
-    padding: 60px 0 40px 0;
-    margin-bottom: 40px;
+    padding: 80px 0 60px 0;
+    margin-bottom: 60px;
   }
 
   .hero-content {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    padding: 20px 0;
   }
 
   .hero h1 {
-    font-size: 3.5rem;
-    max-width: 800px;
+    font-size: 4rem;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
   }
 
   .hero .tagline {
-    font-size: 1.4rem;
-    max-width: 700px;
+    font-size: 1.5rem;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
+    margin-top: 1em;
     color: var(--text-secondary);
+    line-height: 1.6;
   }
 
   .hero .cta-subtext {
@@ -221,28 +219,6 @@
     font-style: italic;
   }
 
-  .testimonial {
-    margin-top: 2em;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 12px;
-    border-left: 4px solid var(--accent-color);
-  }
-
-  .testimonial-quote {
-    font-size: 1.1rem;
-    font-style: italic;
-    color: var(--text-primary);
-    margin-bottom: 0.5em;
-    font-weight: 500;
-  }
-
-  .testimonial-author {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    margin: 0;
-    text-align: right;
-  }
 
   .survey-details {
     margin-top: 2em;
@@ -295,37 +271,42 @@
   }
 
   .primary-button {
-    background-color: var(--button-primary-bg);
-    color: var(--button-primary-text);
+    background-color: #4A90E2;
+    color: #FFFFFF;
     border: none;
-    padding: 18px 36px;
-    font-size: 1.2rem;
-    border-radius: 8px;
+    padding: 24px 48px;
+    font-size: 1.4rem;
+    border-radius: 14px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    font-weight: 600;
+    transition: all 0.3s ease;
+    font-weight: 700;
     letter-spacing: 0.02em;
-    box-shadow: 0 6px 20px var(--shadow-medium);
+    box-shadow: 0 10px 30px rgba(74, 144, 226, 0.4);
     position: relative;
     z-index: 1;
-    margin: 1em 0;
+    margin: 2em auto;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    min-width: 280px;
   }
 
   .primary-button:hover {
-    background-color: #333333;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px var(--shadow-medium);
+    background-color: #357ABD;
+    transform: translateY(-4px);
+    box-shadow: 0 15px 40px rgba(74, 144, 226, 0.5);
   }
 
 
   /* Statement Section */
   .statement {
-    padding: 80px 0;
+    padding: 100px 0;
     background-color: #FEFEFE;
     text-align: center;
     border-radius: 60px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 20px var(--shadow-light);
+    margin-bottom: 60px;
+    box-shadow: 0 6px 25px var(--shadow-light);
+    border: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .statement p {
@@ -336,11 +317,12 @@
 
   /* Features Section */
   .features {
-    padding: 100px 0;
+    padding: 120px 0;
     background-color: #FCFCFC;
     border-radius: 60px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 20px var(--shadow-light);
+    margin-bottom: 60px;
+    box-shadow: 0 6px 25px var(--shadow-light);
+    border: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .feature-item {
@@ -348,7 +330,7 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   .feature-item:last-child {
@@ -359,16 +341,22 @@
     flex-direction: row-reverse;
   }
 
+  .feature-item.reverse .feature-visual {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
   .feature-visual {
     min-width: 300px;
     max-width: 400px;
     height: 250px;
-    background-color: var(--bg-color); /* Matches page background for a floating effect */
+    background-color: var(--bg-color);
     border-radius: 12px;
     box-shadow: 0 4px 15px var(--shadow-light);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
   }
 
   .feature-icon {
@@ -386,15 +374,19 @@
     text-align: left;
     margin-top: 0;
     margin-bottom: 0.8em;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
   }
 
   /* Privacy Section */
   .privacy {
     background-color: #FAFAFA;
-    padding: 100px 0;
+    padding: 120px 0;
     border-radius: 60px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 20px var(--shadow-light);
+    margin-bottom: 60px;
+    box-shadow: 0 6px 25px var(--shadow-light);
+    border: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .privacy h2 {
@@ -415,7 +407,7 @@
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .privacy-point {
@@ -444,12 +436,13 @@
   /* Call to Action Section */
   .call-to-action-section {
     background-color: var(--footer-bg);
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: center;
     color: var(--footer-text);
     border-radius: 60px; 
-    margin-bottom: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 60px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .call-to-action-section .container {
@@ -462,22 +455,24 @@
   }
 
   .secondary-button {
-    background-color: var(--button-secondary-bg);
-    color: var(--button-secondary-text);
+    background-color: #4A90E2;
+    color: #FFFFFF;
     border: none;
-    padding: 16px 32px;
-    font-size: 1.1rem;
-    border-radius: 6px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    font-weight: 600;
-    margin-top: 20px;
-    box-shadow: 0 4px 15px var(--shadow-medium);
+    transition: all 0.3s ease;
+    font-weight: 700;
+    margin-top: 30px;
+    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.4);
+    min-width: 260px;
   }
 
   .secondary-button:hover {
-    background-color: #CCCCCC;
-    transform: translateY(-1px);
+    background-color: #357ABD;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(74, 144, 226, 0.5);
   }
 
   .cta-subtext {
@@ -519,10 +514,14 @@
     color: var(--text-primary);
   }
 
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+
   .footer-links a {
     color: var(--text-secondary);
     text-decoration: none;
-    margin-left: 20px;
     transition: color 0.2s ease;
   }
 
@@ -559,11 +558,11 @@
 
   @media (max-width: 768px) {
     h1 {
-      font-size: 2.8rem;
+      font-size: 3.2rem;
     }
 
     h2 {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
 
     p {
@@ -571,7 +570,7 @@
     }
 
     .hero {
-      padding: 40px 0 30px 0;
+      padding: 60px 0 40px 0;
     }
 
     .hero-image-section {
@@ -606,8 +605,8 @@
       gap: 15px;
     }
 
-    .footer-links a {
-      margin: 0 10px;
+    .footer-links {
+      gap: 15px;
     }
 
     .feature-icon {
@@ -618,15 +617,15 @@
 
   @media (max-width: 900px) {
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.8rem;
     }
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
 
     .hero {
-      padding: 30px 0 20px 0;
+      padding: 50px 0 30px 0;
     }
 
     .hero-image-section {
@@ -638,14 +637,6 @@
       font-size: 1.2rem;
     }
 
-    .testimonial {
-      margin-top: 1.5em;
-      padding: 15px;
-    }
-
-    .testimonial-quote {
-      font-size: 1rem;
-    }
 
     .survey-details {
       margin-top: 1.5em;
@@ -653,8 +644,11 @@
     }
 
     .primary-button {
-      padding: 12px 24px;
-      font-size: 1rem;
+      padding: 20px 36px;
+      font-size: 1.2rem;
+      width: 100%;
+      max-width: 320px;
+      min-width: 280px;
     }
 
 
@@ -665,7 +659,7 @@
     }
 
     .feature-item {
-      margin-bottom: 60px;
+      margin-bottom: 50px;
     }
 
     .call-to-action-section {
@@ -674,8 +668,11 @@
     }
 
     .secondary-button {
-      padding: 10px 20px;
-      font-size: 0.9rem;
+      padding: 18px 32px;
+      font-size: 1.1rem;
+      width: 100%;
+      max-width: 300px;
+      min-width: 260px;
     }
 
     .site-title {
